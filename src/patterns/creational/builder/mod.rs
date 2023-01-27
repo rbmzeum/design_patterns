@@ -20,6 +20,7 @@ pub fn creational_builder() {
     pm.construct(&mut csv_converter);
     let file_name = csv_converter.get_file_name();
     let csv_data = csv_converter.get_csv_data();
+    println!("CSV FILE NAME: {}", file_name);
     println!("CSV DATA: {:#?}", csv_data);
 
     let mut binary_converter = BinaryConverter::default();
