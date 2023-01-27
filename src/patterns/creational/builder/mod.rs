@@ -20,11 +20,15 @@ pub fn creational_builder() {
     pm.construct(&mut csv_converter);
     let file_name = csv_converter.get_file_name();
     let csv_data = csv_converter.get_csv_data();
-    println!("CSV FILE NAME: {}", file_name);
-    println!("CSV DATA: {:#?}", csv_data);
+    println!("CSV file name: {}", file_name);
+    println!("CSV data: {:#?}", csv_data);
 
     let mut binary_converter = BinaryConverter::default();
     pm.construct(&mut binary_converter);
+    let file_name = binary_converter.get_file_name();
+    let offset_bytes = binary_converter.get_offset_bytes();
     let binary_data = binary_converter.get_binary_data();
-    println!("BINARY DATA: {:#?}", binary_data);
+    println!("Binary file name: {}", file_name);
+    println!("Binary offset bytes: {}", offset_bytes);
+    println!("Binary data: {:#?}", binary_data);
 }

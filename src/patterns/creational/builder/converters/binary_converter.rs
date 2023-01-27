@@ -1,5 +1,3 @@
-use std::time::SystemTime;
-
 use crate::patterns::creational::builder::abstract_converter::AbstractConverter;
 
 pub struct BinaryConverter {
@@ -24,9 +22,9 @@ impl BinaryConverter {
         format!("{}.dat", self.name)
     }
 
-    pub fn get_offset_bytes() -> u64 {
-        // current_timestamp - start_timestamp
-        0
+    pub fn get_offset_bytes(&self) -> u64 {
+        let january_27_2023 = 1674817945;
+        self.start_timestamp - january_27_2023
     }
 
     pub fn get_binary_data(&self) -> Vec<u8> {

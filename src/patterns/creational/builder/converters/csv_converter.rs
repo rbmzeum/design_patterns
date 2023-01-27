@@ -44,7 +44,7 @@ impl AbstractConverter for CsvConverter {
         self.name = name;
     }
 
-    fn set_start(&mut self, timestamp: u64) {
+    fn set_start(&mut self, _timestamp: u64) {
         // self.start_timestamp = timestamp;
     }
 
