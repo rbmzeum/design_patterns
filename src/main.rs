@@ -1,3 +1,5 @@
+use crate::patterns::creational::factory_method::abstract_widget::AbstractWidget;
+
 mod patterns;
 
 fn main() {
@@ -28,9 +30,28 @@ fn main() {
     pm.construct(&mut csv_converter);
     let file_name = csv_converter.get_file_name();
     let csv_data = csv_converter.get_csv_data();
+    println!("CSV DATA: {:#?}", csv_data);
 
     let mut binary_converter = BinaryConverter::default();
     pm.construct(&mut binary_converter);
     let binary_data = binary_converter.get_binary_data();
+    println!("BINARY DATA: {:#?}", binary_data);
+
+    // 3. Creational / Factory method
+    use crate::patterns::creational::factory_method::{
+        widgets::line_chart_widget::LineChartWidget,
+        widgets::bar_chart_widget::BarChartWidget,
+    };
+
+    let line_chart_widget = LineChartWidget{};
+    let line_chart = line_chart_widget.create_chart();
+    line_chart.draw();
+
+    let bar_chart_widget = BarChartWidget{};
+    let bar_chart = bar_chart_widget.create_chart();
+    bar_chart.draw();
+
+    // 4. Creational / Prototype
+    // ...
 
 }
