@@ -10,7 +10,10 @@ pub fn crational_abstract_factory() {
     let factory = BinanceExchangeFactory{};
 
     let market = factory.create_market();
-    let account = factory.create_account();
+    let pairs_count = market.get_pairs_count();
+    println!("Pairs count: {:#?}", pairs_count);
 
-    // TODO: добавить пример вызова методов из market и account
+    let account = factory.create_account();
+    let can_trade = account.can_trade();
+    println!("Account can trade: {:#?}", can_trade);
 }
