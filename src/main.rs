@@ -13,6 +13,6 @@ fn main() {
     patterns::creational::factory_method::creational_factory_method();
 
     // 4. Creational / Prototype
-    // ...
+    patterns::creational::prototype::creational_prototype();
 
 }
