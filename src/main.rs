@@ -15,4 +15,6 @@ fn main() {
     // 4. Creational / Prototype
     patterns::creational::prototype::creational_prototype();
 
+    // 5. Creational / Singleton
+    patterns::creational::singleton::creational_singleton();
 }
