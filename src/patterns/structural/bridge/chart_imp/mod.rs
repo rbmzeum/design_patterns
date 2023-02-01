@@ -1,0 +1,1 @@
+pub mod gtk4_drawing_area_chart_imp;

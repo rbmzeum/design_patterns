@@ -20,4 +20,10 @@ fn main() {
 
     // 6. Structural / Adapter (Wrapper)
     patterns::structural::adapter::structural_adapter();
+
+    // 7. Structural / Bridge
+    patterns::structural::bridge::structural_bridge();
+
+    // 8. Structural / Composite
+    // ...
 }
