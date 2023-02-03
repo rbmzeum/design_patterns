@@ -25,5 +25,7 @@ fn main() {
     patterns::structural::bridge::structural_bridge();
 
     // 8. Structural / Composite
-    // ...
+    patterns::structural::composite::structural_composite();
+
+    // 9. Structural / ...
 }
