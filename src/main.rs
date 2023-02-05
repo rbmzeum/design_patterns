@@ -18,7 +18,7 @@ fn main() {
     // 5. Creational / Singleton
     patterns::creational::singleton::creational_singleton();
 
-    // 6. Structural / Adapter (Wrapper)
+    // 6. Structural / Adapter
     patterns::structural::adapter::structural_adapter();
 
     // 7. Structural / Bridge
@@ -27,5 +27,6 @@ fn main() {
     // 8. Structural / Composite
     patterns::structural::composite::structural_composite();
 
-    // 9. Structural / ...
+    // 9. Structural / Decorator
+    patterns::structural::decorator::structural_decorator();
 }
