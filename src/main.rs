@@ -29,4 +29,7 @@ fn main() {
 
     // 9. Structural / Decorator
     patterns::structural::decorator::structural_decorator();
+
+    // 10. Structural / Facade
+    patterns::structural::facade::structural_facade();
 }
