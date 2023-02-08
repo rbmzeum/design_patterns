@@ -32,4 +32,9 @@ fn main() {
 
     // 10. Structural / Facade
     patterns::structural::facade::structural_facade();
+
+    // 11. Structural / Flyweight
+    patterns::structural::flyweight::structural_flyweight();
+
+    // 12.
 }
