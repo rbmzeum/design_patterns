@@ -36,5 +36,6 @@ fn main() {
     // 11. Structural / Flyweight
     patterns::structural::flyweight::structural_flyweight();
 
-    // 12.
+    // 12. Structural / Proxy
+    patterns::structural::proxy::structural_proxy();
 }
