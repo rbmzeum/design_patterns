@@ -38,4 +38,7 @@ fn main() {
 
     // 12. Structural / Proxy
     patterns::structural::proxy::structural_proxy();
+
+    // 13. Behavioral / Chain of responsibility
+    patterns::behavioral::chain_of_responsibility::behavioral_chain_of_responsibility();
 }
