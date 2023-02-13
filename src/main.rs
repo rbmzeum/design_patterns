@@ -41,4 +41,7 @@ fn main() {
 
     // 13. Behavioral / Chain of responsibility
     patterns::behavioral::chain_of_responsibility::behavioral_chain_of_responsibility();
+
+    // 14. Behavioral / Command
+    patterns::behavioral::command::behavioral_command();
 }
