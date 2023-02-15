@@ -44,4 +44,7 @@ fn main() {
 
     // 14. Behavioral / Command
     patterns::behavioral::command::behavioral_command();
+
+    // 15. Behavioral / Interpreter
+    patterns::behavioral::interpreter::behavioral_interpreter();
 }
