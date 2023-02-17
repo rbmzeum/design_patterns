@@ -47,4 +47,7 @@ fn main() {
 
     // 15. Behavioral / Interpreter
     patterns::behavioral::interpreter::behavioral_interpreter();
+
+    // 16. Behavioral / Iterator
+    patterns::behavioral::iterator::behavioral_iterator();
 }
