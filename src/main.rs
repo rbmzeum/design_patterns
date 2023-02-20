@@ -50,4 +50,7 @@ fn main() {
 
     // 16. Behavioral / Iterator
     patterns::behavioral::iterator::behavioral_iterator();
+
+    // 17. Behavioral / Mediator
+    patterns::behavioral::mediator::behavioral_mediator();
 }
