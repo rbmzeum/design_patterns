@@ -53,4 +53,7 @@ fn main() {
 
     // 17. Behavioral / Mediator
     patterns::behavioral::mediator::behavioral_mediator();
+
+    // 18. Behavioral / Memento
+    patterns::behavioral::memento::behavioral_memento();
 }
