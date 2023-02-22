@@ -56,4 +56,7 @@ fn main() {
 
     // 18. Behavioral / Memento
     patterns::behavioral::memento::behavioral_memento();
+
+    // 19. Behavioral / Observer
+    patterns::behavioral::observer::behavioral_observer();
 }
