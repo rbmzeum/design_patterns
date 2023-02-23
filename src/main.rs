@@ -59,4 +59,7 @@ fn main() {
 
     // 19. Behavioral / Observer
     patterns::behavioral::observer::behavioral_observer();
+
+    // 20. Behavioral / State
+    patterns::behavioral::state::behavioral_state();
 }
