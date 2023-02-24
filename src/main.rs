@@ -65,4 +65,7 @@ fn main() {
 
     // 21. Behavioral / Strategy
     patterns::behavioral::strategy::behavioral_strategy();
+
+    // 22. Behavioral / Template method
+    patterns::behavioral::template_method::behavioral_template_method();
 }
