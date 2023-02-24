@@ -62,4 +62,7 @@ fn main() {
 
     // 20. Behavioral / State
     patterns::behavioral::state::behavioral_state();
+
+    // 21. Behavioral / Strategy
+    patterns::behavioral::strategy::behavioral_strategy();
 }
