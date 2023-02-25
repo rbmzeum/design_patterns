@@ -68,4 +68,7 @@ fn main() {
 
     // 22. Behavioral / Template method
     patterns::behavioral::template_method::behavioral_template_method();
+
+    // 23. Behavioral / Visitor
+    patterns::behavioral::visitor::behavioral_visitor();
 }
